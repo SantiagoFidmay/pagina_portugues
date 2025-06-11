@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(47, 24, 255);
+    color: rgb(255, 255, 255);
+}
+
+nav .Argumentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 8px;
+    height: 50px;
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    height: 100vh; 
+}
+
+main img {
+    position: absolute;
+    bottom: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; 
+}
+
+a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+h1,h2{
+    text-align: center;
+}
+p2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
